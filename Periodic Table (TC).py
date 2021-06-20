@@ -68,12 +68,12 @@ def show_symbol(x, y):
     
     if u'\u4e00' <= B1 <= u'\u9fff':
       element1 = B1
-    elif len(B1)<= 2:
+    else:
       element1 = dict[B1]
       
     if u'\u4e00' <= B2 <= u'\u9fff':
       element2 = B2
-    elif len(B2)<= 2:
+    else:
       element2 = dict[B2]
       
     if (B1 == element2 or B2 == element1):
