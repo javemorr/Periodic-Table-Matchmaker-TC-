@@ -1,7 +1,8 @@
 # Date: 20th June, 2021
 # Project: Matchmaker (Elements in Periodic Table)
-
 # Perhaps, secondary school students may find this game interesting for them to revise for the chemical symbols listed in the periodic table.
+# Ref.: https://www.youtube.com/watch?v=8PeqZMBCsCc
+# Ref.: https://www.youtube.com/watch?v=qVZ5G2-lajE&t=8s
 
 import random
 import time
