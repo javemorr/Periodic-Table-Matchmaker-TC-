@@ -90,7 +90,7 @@ def show_symbol(x, y):
 # Create a 8x6 array buttons
 for x in range(8):
   for y in range(6):
-    button = Button(command = lambda x = x, y = y: show_symbol(x, y), width = 10, height = 5)
+    button = Button(command = lambda x = x, y = y: show_symbol(x, y), width = 6, height = 3, font = 12)
     button.grid(column = x, row = y)
     buttons[x, y] = button
     button_symbols[x, y] = symbols.pop()
